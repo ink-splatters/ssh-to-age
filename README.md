@@ -1,7 +1,7 @@
 # ssh-to-age
 
 Convert SSH Ed25519 keys to [age](https://github.com/FiloSottile/age) keys.
-This is useful for usage in [sops-nix](https://github.com/Mic92/sops-nix) and
+This is useful in [sops-nix](https://github.com/Mic92/sops-nix) and
 [sops](https://github.com/mozilla/sops)
 
 ## Usage
