@@ -24,8 +24,7 @@ pkgs.buildGoModule {
 
   ldflags = [ "-s" "-w" "-X main.version=${version}" ];
 
-  # golangci-lint is marked as broken on macOS
-  nativeBuildInputs = pkgs.lib.optional (!pkgs.stdenv.isDarwin) [ pkgs.golangci-lint ];
+  nativeBuildInputs = [ pkgs.golangci-lint ];
 
   checkPhase = ''
     runHook preCheck
