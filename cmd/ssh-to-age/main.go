@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	sshage "github.com/Mic92/ssh-to-age"
+	sshage "github.com/ink-splatters/ssh-to-age"
 )
 
 var version = "dev"

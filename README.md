@@ -44,11 +44,11 @@ age1v8zjc47jmlqwefyu66s0d4ke98qr4vnuj3cpvs4z9npfdw833dxqwjrhzv
 ## Install with nix
 
 ```console
-$ nix-shell -p 'import (fetchTarball "https://github.com/Mic92/ssh-to-age/archive/main.tar.gz") {}'
+$ nix-shell -p 'import (fetchTarball "https://github.com/ink-splatters/ssh-to-age/archive/main.tar.gz") {}'
 ```
 
 ## Install with go
 
 ```console
-$ go install github.com/Mic92/ssh-to-age/cmd/ssh-to-age@latest
+$ go install github.com/ink-splatters/ssh-to-age/cmd/ssh-to-age@latest
 ```

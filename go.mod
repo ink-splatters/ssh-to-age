@@ -1,4 +1,4 @@
-module github.com/Mic92/ssh-to-age
+module github.com/ink-splatters/ssh-to-age
 
 go 1.24.0 // tagx:compat 1.16
 

@@ -41,7 +41,7 @@ pkgs.buildGoModule {
 
   meta = with pkgs.lib; {
     description = "Convert ssh private keys in ed25519 format to age keys";
-    homepage = "https://github.com/Mic92/ssh-to-age";
+    homepage = "https://github.com/ink-splatters/ssh-to-age";
     license = licenses.mit;
     maintainers = with maintainers; [ mic92 ];
   };

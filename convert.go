@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"filippo.io/edwards25519"
-	"github.com/Mic92/ssh-to-age/bech32"
+	"github.com/ink-splatters/ssh-to-age/bech32"
 	"golang.org/x/crypto/curve25519"
 	"golang.org/x/crypto/ssh"
 )
