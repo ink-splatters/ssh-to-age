@@ -9,7 +9,7 @@
     devShells.default = pkgs.mkShell {
       packages = with pkgs;
         [
-          go
+          go_1_26
           golangci-lint
         ]
         ++ pre-commit.settings.enabledPackages;

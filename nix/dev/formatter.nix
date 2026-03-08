@@ -4,7 +4,7 @@
       ${pkgs.alejandra}/bin/alejandra .
 
       echo "Formatting Go files..."
-      ${pkgs.go}/bin/go fmt ./...
+      ${pkgs.go_1_26}/bin/go fmt ./...
     '';
   };
 }

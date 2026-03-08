@@ -12,7 +12,7 @@
       version = fileContents "VERSION.txt";
       vendorHash = fileContents "/go.mod.sri";
     in
-      pkgs.buildGoModule {
+      pkgs.buildGo126Module {
         pname = "ssh-to-age";
         inherit version vendorHash;
 
