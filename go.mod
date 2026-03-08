@@ -2,8 +2,6 @@ module github.com/ink-splatters/ssh-to-age
 
 go 1.24.0 // tagx:compat 1.16
 
-toolchain go1.24.6
-
 require (
 	filippo.io/age v1.3.1
 	filippo.io/edwards25519 v1.2.0
