@@ -7,7 +7,7 @@
       inputs.nixpkgs-lib.follows = "nixpkgs";
     };
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-    systems.url = "github:ink-splatters/default-systems"; # no x86_64-darwin
+    systems.url = "github:ink-splatters/nix-systems"; # no x86_64-darwin
   };
 
   nixConfig = {
